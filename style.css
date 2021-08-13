@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+main {
+  margin: 10px;
+}
+
 body {
     margin: 0;
     background-color: rgb(252, 251, 246);
@@ -48,12 +52,13 @@ table img {
   width:300px;
 }
 a:hover{
-  color: pink;
+  color: green;
 
 }
 a {
   border: 2px dotted black;
   border-radius: 15px;
+  color: rgb(0, 53, 127);
 }
 table h1{
   font-family:rage;
@@ -80,10 +85,16 @@ table h1{
 .footer {
     border: 1px solid rgb(112, 112, 112);
     background-color: rgb(255,255,255);
-    padding: 10px;
+    padding-right: 10px;
     text-align: right;
     color: rgb(209,132,41)
 
+}
+
+.footer a {
+  color:rgb(209,132,41);
+  border: none;
+  padding-left: 25px;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -92,3 +103,64 @@ table h1{
         width: 100%;
     }
 }
+/*css for artist.html */
+
+  .banner img {
+    width: 100%;
+
+  }
+  nav {
+    padding:20px;
+    background-color: rgb(249,252,170);
+    border: 2px dotted rgb(112, 112, 112);
+    text-align: center;
+  }
+
+  nav a{
+    border: none;
+    margin: 10px;
+  }
+
+  .outterSection {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.LTEnrTJGWu2YXyB-5gy81gHaE8%26pid%3DApi&f=1');
+   ;
+
+  }
+
+  section img{
+    border: 1px solid rgb(112, 112, 112);
+    width: 300px;
+    padding: 20px;
+    float:left;
+  }
+
+  section p ul {
+    float: right;
+
+  }
+   section {
+     background-color: rgb(112, 112, 112);
+     margin: 50px;
+     padding: 10px;
+     float: right;
+     font-size: 20px;
+     display: ;
+   }
+
+   h1 {
+
+     text-align: center;
+   }
+
+   h3 {
+     text-align: center;
+     color: rgb(209, 132, 41);
+   }
+
+   .likesNdislikes {
+     padding-left: 100px;
+     border: 1px solid  rgb(249,252,170);
+     display:flex;
+     background-color: rgb(112, 112, 112);
+     width: 100%;
+   }

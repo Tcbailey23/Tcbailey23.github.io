@@ -1,5 +1,6 @@
 h1 {
   color:green;
+  text-align: center;
 }
 
 h3 {
@@ -21,7 +22,9 @@ main {
   background-color: #f3de8a;
 
 }
-
+.IntroSection {
+  text-align: justify;
+}
 .InfoSection {
   border: 2px dotted #272838;
   padding: 5px;

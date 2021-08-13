@@ -1,0 +1,33 @@
+h1 {
+  color:green;
+}
+
+h3 {
+  color: #7e7f9a;
+}
+
+a {
+  color: #272838;
+}
+
+a:hover {
+  color: #f9f8f8;
+}
+main {
+  margin: 10px;
+  padding: 20px;
+  border:1px solid #272838;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f3de8a;
+
+}
+
+.InfoSection {
+  border: 2px dotted #272838;
+  padding: 5px;
+}
+
+.dSection {
+  background-color: #eb9486;
+  padding-left: 5px;
+}

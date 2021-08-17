@@ -164,3 +164,25 @@ table h1{
      background-color: rgb(112, 112, 112);
      width: 100%;
    }
+/*end of css Artist.html*/
+form{
+background-color: lightgrey;
+padding: 5px;
+border:1px solid rgb(209,132,41)
+}
+
+legend{
+  color: rgb(0,53,127);
+  font-weight: bold;
+}
+
+Input [type=text]{
+  border: none;
+  border-bottom: 3px solid blue;
+  border-radius: 5px;
+  color: rgb(209,132,41);
+}
+
+Input [value],{
+  color: blue;
+}

@@ -51,6 +51,11 @@ table img {
   height: 300px;
   width:300px;
 }
+.gallery {
+text-align: center;
+margin-left: 50px;
+
+}
 a:hover{
   color: green;
 
@@ -60,7 +65,7 @@ a {
   border-radius: 15px;
   color: rgb(0, 53, 127);
 }
-table h1{
+.ProjH {
   font-family:rage;
   font-size:15;
   color: rgb(209, 132, 41);
@@ -165,6 +170,7 @@ table h1{
      width: 100%;
    }
 /*end of css Artist.html*/
+/*contantform*/
 form{
 background-color: lightgrey;
 padding: 5px;
@@ -176,7 +182,7 @@ legend{
   font-weight: bold;
 }
 
-Input [type=text]{
+form Input [type=text]{
   border: none;
   border-bottom: 3px solid blue;
   border-radius: 5px;
@@ -185,4 +191,17 @@ Input [type=text]{
 
 Input [value],{
   color: blue;
+}
+
+.illDiv {
+  background-color: rgba(209,132,41, 0.5);
+  border:1px dotted rgb(112, 112, 112);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.proDiv {
+  background-color: rgba(0, 53, 127,0.5);
+  border:1px dotted rgb(112, 112, 112);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }

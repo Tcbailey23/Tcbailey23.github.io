@@ -5,6 +5,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 <main>
@@ -22,25 +24,32 @@
 
 <div class="row">
   <div class="column" style="background-color:rgb(255, 251, 246);">
+    <!-- Lightbox Area -->
+    <div class="lightbox">
+    <div class="lightboxClose">&#10006;</div>
+    <div class="lightboxContent">
+    <img src="#"/>
+    </div>
+    </div><!-- Lightbox Area ends -->
     <table>
       <tr>
-      <td><img src="assets/images/Bambi_Poster.png" alt="Bambi Poster"></td>
+      <td><img class="projectImg" src="assets/images/Bambi_Poster.png" alt="Bambi Poster"></td>
       <td></td>
       <td></td>
-      <td><img src="assets/images/W5D1_Bookcover2_TBailey.png" alt="Bookcover project"></td>
+      <td><img class="projectImg" src="assets/images/W5D1_Bookcover2_TBailey.png" alt="Bookcover project"></td>
       <td></td>
       <td></td>
-      <td><img src="assets/images/Kidd-Zero_PAW_D1.png" alt="coverart for song"></td>
+      <td><img class="projectImg" src="assets/images/Kidd-Zero_PAW_D1.png" alt="coverart for song"></td>
       <td><a href="./projects.html"><h1 class="ProjH">Projects</h1></a></td>
     </tr>
       <tr>
-        <td><a href="#">.  View  .</a></td>
         <td></td>
         <td></td>
-        <td><a href="#">.  View  .</a></td>
         <td></td>
         <td></td>
-        <td><a href="#">.  View  .</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
     </table>
 
@@ -48,23 +57,23 @@
   <div class="column" style="background-color:rgb(255, 251, 246);">
     <table>
       <tr>
-      <td><img src="assets/images/Buggy.png" alt="illustration of buggy the clown"></td>
+      <td><img class="projectImg" src="assets/images/Buggy.png" alt="illustration of buggy the clown"></td>
       <td></td>
       <td></td>
-      <td><img src="assets/images/Elephantbond.png" alt="illustration of a mother elephant with baby"></td>
+      <td><img class="projectImg" src="assets/images/Elephantbond.png" alt="illustration of a mother elephant with baby"></td>
       <td></td>
       <td></td>
-      <td><img src="assets/images/PopArtGirl_Collage.png" alt="PopArt Illustration"></td>
+      <td><img class="projectImg" src="assets/images/PopArtGirl_Collage.png" alt="PopArt Illustration"></td>
       <td><a href="./illustrations.html"><h1 class="IllH">Illustrations</h1></a></td>
     </tr>
     <tr>
-      <td><a href="#">.  View  .</a></td>
       <td></td>
       <td></td>
-      <td><a href="#">.  View  .</a></td>
       <td></td>
       <td></td>
-      <td><a href="#">.  View  .</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     </table>
   </div>
@@ -76,5 +85,8 @@
   <a href="contactform.html">Contact Me</a></p>
 </div>
 </main>
+<script type="text/javascript" src="./js/java.js"></script>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/lightbox.js"></script>
 </body>
 </html>

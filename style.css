@@ -16,6 +16,11 @@ body {
 }
 
 /* Style the header */
+.header img{
+  height: 100px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
 .header {
     border: 2px dotted rgb(112, 112, 112);
     background-color: rgb(249,252,170);
@@ -45,19 +50,23 @@ h2{
 table {
   margin-top: 25px;
   margin-left: 14px;
+  flex: auto;
 }
  td{
   text-align: center;
   margin:100px;
+  flex: auto;
 }
 table img {
   border: 2px solid rgb(0, 53, 127);
   height: 300px;
   width:300px;
+
 }
 .gallery {
 text-align: center;
 margin-left: 50px;
+flex: auto;
 
 }
 a:hover{
